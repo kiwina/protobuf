@@ -1,12 +1,12 @@
 package = "protobuf"
 version = "1.0.0-0"
 source = {
-    url = "git://github.com/kiwina/protoc-gen-lua",
+    url = "git://github.com/kiwina/protobuf",
     tag = "v1.0.0",
 }
 description = {
   summary = "protobuf library and compiler plugin",
-  homepage = "https://github.com/kiwina/protoc-gen-lua",
+  homepage = "https://github.com/kiwina/protobuf",
   license = "MIT"
 }
 dependencies = {
@@ -25,6 +25,5 @@ build = {
     ["protobuf.listener"] = "protobuf/listener.lua",
     ["protobuf.type_checkers"] = "protobuf/type_checkers.lua",
     ["protobuf.pb"] = { sources = {"protobuf/pb.c"} }
-  },
-  copy_directories = {"protoc-plugin"}
+  }
 }
