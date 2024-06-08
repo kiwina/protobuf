@@ -1,8 +1,8 @@
 package = "protobuf"
-version = "1.0.1-0"
+version = "1.0.0-0"
 source = {
     url = "git://github.com/kiwina/protobuf",
-    tag = "v1.0.1",
+    tag = "v1.0.0",
 }
 description = {
   summary = "protobuf library and compiler plugin",
